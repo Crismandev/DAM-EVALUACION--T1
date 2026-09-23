@@ -22,9 +22,9 @@
     <string name="pregunta6_error_horas">Por favor ingrese las horas</string>
     <string name="pregunta6_error_horas_negativas">Las horas no pueden ser negativas</string>
     <string name="pregunta6_consumo_cubierto">Consumo cubierto por la póliza mensual contratada.</string>
-    <string name="pregunta6_horas_totales">Horas totales consumidas:</string>
-    <string name="pregunta6_horas_excedentes">Horas excedentes:</string>
-    <string name="pregunta6_facturacion">Facturación complementaria:</string>
+    <string name="pregunta6_horas_totales">Horas totales consumidas: %1$d</string>
+    <string name="pregunta6_horas_excedentes">Horas excedentes: %1$d</string>
+    <string name="pregunta6_facturacion">Facturación complementaria: S/ %1$.2f</string>
 
     <!-- Pregunta 7 -->
     <string name="tvtitulo">Devolución tardía de trajes</string>
