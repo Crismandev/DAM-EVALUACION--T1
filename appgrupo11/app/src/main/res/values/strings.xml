@@ -38,4 +38,31 @@
         Facturación complementaria: S/ %1$.2f
     </string>
 
+    <string name="p2_titulo">Mermas en lote de confección textil</string>
+
+    <string name="p2_prendas_hint">
+    Cantidad de prendas defectuosas
+</string>
+
+    <string name="p2_calcular">Calcular</string>
+
+    <string name="p2_resultado_inicial">
+    Ingrese la cantidad de prendas defectuosas
+</string>
+
+    <string name="tvtitulo">
+    Devolución tardía de trajes y vestuario
+</string>
+
+    <string name="tvdiasretraso">
+    Días de retraso
+</string>
+
+    <string name="btncalcular">
+    Calcular
+</string>
+
+    <string name="btnvolverinicio">
+    Volver al inicio
+</string>
 </resources>
