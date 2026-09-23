@@ -23,9 +23,9 @@
         <activity
             android:name=".Pregunta1Activity"
             android:exported="true" />
-      
+        <activity
             android:name=".Pregunta7Activity"
-            android:exported="false"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize" />
     </application>
 
