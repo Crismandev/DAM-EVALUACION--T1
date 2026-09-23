@@ -23,11 +23,7 @@ class Pregunta7Activity : AppCompatActivity(), View.OnClickListener {
         enableEdgeToEdge()
         binding = ActivityPregunta7Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+        
         binding.btncalcular.setOnClickListener(this)
         binding.btnvolverinicio.setOnClickListener(this)
     }
