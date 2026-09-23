@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">AppGrupo11</string>
+
+    <!-- Pregunta 2 -->
+    <string name="p2_titulo">Mermas en lote de confección textil</string>
+    <string name="p2_prendas_hint">Cantidad de prendas defectuosas</string>
+    <string name="p2_calcular">Calcular</string>
+    <string name="p2_resultado_inicial"></string>
+
+    <!-- Pregunta 3 -->
+    <string name="botoncalcula">Calcular</string>
+    <string name="bibliotec">Retraso en devolución de libros en biblioteca universitaria</string>
+    <string name="textdiastranscurridos">Días transcurridos</string>
+
+    <!-- Pregunta 6 -->
+    <string name="pregunta6_titulo">Consumo de horas de soporte</string>
+    <string name="pregunta6_descripcion">Póliza de 40 horas mensuales</string>
+    <string name="pregunta6_hint_horas">Horas consumidas</string>
+    <string name="pregunta6_boton_calcular">Calcular</string>
+    <string name="pregunta6_error_horas">Por favor ingrese las horas</string>
+    <string name="pregunta6_error_horas_negativas">Las horas no pueden ser negativas</string>
+    <string name="pregunta6_consumo_cubierto">Consumo cubierto por la póliza mensual contratada.</string>
+    <string name="pregunta6_horas_totales">Horas totales consumidas:</string>
+    <string name="pregunta6_horas_excedentes">Horas excedentes:</string>
+    <string name="pregunta6_facturacion">Facturación complementaria:</string>
+
+    <!-- Pregunta 7 -->
+    <string name="tvtitulo">Devolución tardía de trajes</string>
+    <string name="tvdiasretraso">Días de retraso</string>
+    <string name="btncalcular">Calcular</string>
+    <string name="btnvolverinicio">Volver al inicio</string>
+
+    <!-- Nombres de Botones para MainActivity -->
+    <string name="main_btn_pregunta1">Pregunta 1</string>
+    <string name="main_btn_pregunta2">Pregunta 2</string>
+    <string name="main_btn_pregunta3">Pregunta 3</string>
+    <string name="main_btn_pregunta4">Pregunta 4</string>
+    <string name="main_btn_pregunta5">Pregunta 5</string>
+    <string name="main_btn_pregunta6">Pregunta 6</string>
+    <string name="main_btn_pregunta7">Pregunta 7</string>
 </resources>
