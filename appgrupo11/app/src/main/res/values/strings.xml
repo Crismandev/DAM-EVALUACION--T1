@@ -1,7 +1,3 @@
 <resources>
     <string name="app_name">AppGrupo11</string>
-    <string name="Biblioteca">Biblioteca Universitaria</string>
-    <string name="bibliotec">Biblioteca Universitaria</string>
-    <string name="textdiastranscurridos">"Ingresa Días Transcurridos "</string>
-    <string name="botoncalcula">Calcular</string>
 </resources>
