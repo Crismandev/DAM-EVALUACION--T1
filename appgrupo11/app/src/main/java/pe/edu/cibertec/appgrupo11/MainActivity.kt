@@ -39,6 +39,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Pregunta2Activity::class.java))
         }
 
+        findViewById<Button>(R.id.btnPregunta3).setOnClickListener {
+            startActivity(Intent(this, Pregunta3Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnPregunta4).setOnClickListener {
+            startActivity(Intent(this, Pregunta4Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnPregunta6).setOnClickListener {
+            startActivity(Intent(this, Pregunta6Activity::class.java))
+        }
+
         findViewById<Button>(R.id.btnPregunta7).setOnClickListener {
             startActivity(Intent(this, Pregunta7Activity::class.java))
         }

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AppGrupo11</string>
+    <string name="txttitulo">GRUPO 11</string>
+    <string name="txttitulo2">REPUESTAS DE T1</string>
 
     <!-- Pregunta 2 -->
     <string name="p2_titulo">Mermas en lote de confección textil</string>
