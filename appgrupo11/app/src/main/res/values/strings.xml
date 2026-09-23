@@ -1,3 +1,32 @@
 <resources>
+
     <string name="app_name">AppGrupo11</string>
+
+    <!-- Pregunta 6 -->
+    <string name="pregunta6_titulo">Consumo de horas de soporte técnico</string>
+    <string name="pregunta6_descripcion">Ingrese las horas de soporte técnico consumidas:</string>
+    <string name="pregunta6_hint_horas">Horas consumidas</string>
+    <string name="pregunta6_boton_calcular">Calcular</string>
+    <string name="pregunta6_error_horas">Ingrese las horas consumidas</string>
+
+    <string name="pregunta6_consumo_cubierto">
+        Consumo cubierto por la póliza mensual contratada.
+    </string>
+
+    <string name="pregunta6_horas_totales">
+        Horas totales consumidas: %1$d
+    </string>
+
+    <string name="pregunta6_horas_excedentes">
+        Horas excedentes: %1$d
+    </string>
+
+    <string name="pregunta6_facturacion">
+        Facturación complementaria: S/ %1$.2f
+    </string>
+
+    <string name="pregunta6_error_horas_negativas">
+    Las horas no pueden ser menores que 0.
+</string>
+
 </resources>
