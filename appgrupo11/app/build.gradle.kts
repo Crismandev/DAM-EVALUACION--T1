@@ -29,10 +29,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-
-    viewBinding {
-        enable=true
-    }
 }
 
 dependencies {
@@ -41,7 +37,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
-    implementation("com.github.bumptech.glide:glide:5.0.9")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
