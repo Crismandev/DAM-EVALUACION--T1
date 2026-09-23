@@ -51,6 +51,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Pregunta4Activity::class.java))
         }
 
+        findViewById<Button>(R.id.btnPregunta5).setOnClickListener {
+            startActivity(Intent(this, Pregunta5Activity::class.java))
+        }
+
         findViewById<Button>(R.id.btnPregunta6).setOnClickListener {
             startActivity(Intent(this, Pregunta6Activity::class.java))
         }
