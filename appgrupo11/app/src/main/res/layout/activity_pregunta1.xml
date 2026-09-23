@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:gravity="center"
-        android:text="Penalización por atraso"
+        android:text="@string/p1_titulo"
         android:textColor="?attr/colorPrimary"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -37,7 +37,7 @@
         android:layout_marginTop="8dp"
         android:alpha="0.7"
         android:gravity="center"
-        android:text="Ventana de gracia de hasta 5 días"
+        android:text="@string/p1_descripcion"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +57,7 @@
             android:id="@+id/etDiasRetraso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Días de retraso"
+            android:hint="@string/p1_hint"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -66,7 +66,7 @@
         android:layout_width="0dp"
         android:layout_height="54dp"
         android:layout_marginTop="24dp"
-        android:text="Calcular"
+        android:text="@string/p1_btn_calcular"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

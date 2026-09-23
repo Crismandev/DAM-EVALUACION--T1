@@ -3,6 +3,12 @@
     <string name="txttitulo">GRUPO 11</string>
     <string name="txttitulo2">REPUESTAS DE T1</string>
 
+    <!-- Pregunta 1 -->
+    <string name="p1_titulo">Penalización por atraso</string>
+    <string name="p1_descripcion">Ventana de gracia de hasta 5 días</string>
+    <string name="p1_hint">Días de retraso</string>
+    <string name="p1_btn_calcular">Calcular</string>
+
     <!-- Pregunta 2 -->
     <string name="p2_titulo">Mermas en lote de confección textil</string>
     <string name="p2_prendas_hint">Cantidad de prendas defectuosas</string>
