@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AppGrupo11</string>
+    <string name="btnvolverinicio">Volver al inicio</string>
+    <string name="btncalcular">Calcular</string>
+    <string name="tvdiasretraso">Dias de retraso:</string>
+    <string name="tvtitulo">Devolución tardía de disfraces</string>
 </resources>
