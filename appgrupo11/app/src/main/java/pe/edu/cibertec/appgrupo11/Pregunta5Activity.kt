@@ -2,22 +2,17 @@ package pe.edu.cibertec.appgrupo11
 
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.coroutines.selects.SelectInstance
-import org.w3c.dom.Text
-import java.text.NumberFormat
+import pe.edu.cibertec.appgrupo11.databinding.ActivityPregunta5Binding
 import java.util.Locale
 
 class Pregunta5Activity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var binding: pe.edu.cibertec.appgrupo11.databinding.ActivityPregunta5Binding
+    private lateinit var binding: ActivityPregunta5Binding
 
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        binding = pe.edu.cibertec.appgrupo11.databinding.ActivityPregunta5Binding.inflate(layoutInflater)
+        binding = ActivityPregunta5Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.btnCalcular.setOnClickListener(this)

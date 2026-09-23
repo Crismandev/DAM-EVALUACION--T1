@@ -20,6 +20,18 @@
     <string name="bibliotec">Retraso en devolución de libros en biblioteca universitaria</string>
     <string name="textdiastranscurridos">Días transcurridos</string>
 
+    <!-- Pregunta 4 -->
+    <string name="p4_titulo">Sobregiro temporal</string>
+    <string name="p4_descripcion">Ingrese el monto del sobregiro solicitado:</string>
+    <string name="p4_hint">Ejemplo: 6000</string>
+    <string name="p4_btn_calcular">Calcular</string>
+
+    <!-- Pregunta 5 -->
+    <string name="p5_titulo">Emisión de decibelios</string>
+    <string name="p5_descripcion">Niveles de ruido ambiental (Max 55 dB)</string>
+    <string name="p5_hint">Ingrese decibelios medidos</string>
+    <string name="p5_btn_calcular">Calcular sanción</string>
+
     <!-- Pregunta 6 -->
     <string name="pregunta6_titulo">Consumo de horas de soporte</string>
     <string name="pregunta6_descripcion">Póliza de 40 horas mensuales</string>

@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:gravity="center"
-        android:text="Sobregiro temporal"
+        android:text="@string/p4_titulo"
         android:textColor="?attr/colorPrimary"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -37,7 +37,7 @@
         android:layout_marginTop="8dp"
         android:alpha="0.7"
         android:gravity="center"
-        android:text="Ingrese el monto del sobregiro solicitado:"
+        android:text="@string/p4_descripcion"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +57,7 @@
             android:id="@+id/etSobregiro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ejemplo: 6000"
+            android:hint="@string/p4_hint"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -66,7 +66,7 @@
         android:layout_width="0dp"
         android:layout_height="54dp"
         android:layout_marginTop="24dp"
-        android:text="CALCULAR"
+        android:text="@string/p4_btn_calcular"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
