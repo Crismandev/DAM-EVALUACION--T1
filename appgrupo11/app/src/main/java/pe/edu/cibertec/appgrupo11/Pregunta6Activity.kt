@@ -5,7 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import pe.edu.cibertec.appgrupo11.databinding.ActivityPregunta6Binding
 
-class pregunta6Activity : AppCompatActivity(), View.OnClickListener {
+class Pregunta6Activity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityPregunta6Binding
 

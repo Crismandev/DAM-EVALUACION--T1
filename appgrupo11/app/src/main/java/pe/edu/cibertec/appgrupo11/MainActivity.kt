@@ -1,10 +1,12 @@
 package pe.edu.cibertec.appgrupo11
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +29,18 @@ class MainActivity : AppCompatActivity() {
             )
 
             insets
+        }
+
+        findViewById<Button>(R.id.btnPregunta1).setOnClickListener {
+            startActivity(Intent(this, Pregunta1Activity::class.java))
+        }
+        
+        findViewById<Button>(R.id.btnPregunta2).setOnClickListener {
+            startActivity(Intent(this, Pregunta2Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnPregunta7).setOnClickListener {
+            startActivity(Intent(this, Pregunta7Activity::class.java))
         }
     }
 }
