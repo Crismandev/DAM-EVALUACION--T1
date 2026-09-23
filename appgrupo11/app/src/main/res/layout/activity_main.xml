@@ -50,8 +50,12 @@
             android:id="@+id/btnPregunta5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="@string/main_btn_pregunta5" />
+            android:text="Pregunta 5"
+            app:layout_constraintTop_toBottomOf="@id/btnPregunta1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
 
         <Button
             android:id="@+id/btnPregunta6"
