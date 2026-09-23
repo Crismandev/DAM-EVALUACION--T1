@@ -1,52 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/cibertec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp" />
 
     <TextView
-        android:id="@+id/tvTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Penalización por atraso a proveedores"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <EditText
-        android:id="@+id/etDiasRetraso"
+        android:id="@+id/tvStandardTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:hint="Días de retraso"
-        android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/tvTitulo"
+        android:gravity="center"
+        android:text="Penalización por atraso"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+    <TextView
+        android:id="@+id/tvStandardDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:text="Ventana de gracia de hasta 5 días"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStandardTitle" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStandardDesc">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDiasRetraso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Días de retraso"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnCalcular"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
         android:text="Calcular"
+        app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etDiasRetraso" />
+        app:layout_constraintTop_toBottomOf="@id/tilInput" />
 
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
         android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/btnCalcular"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/btnCalcular" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
