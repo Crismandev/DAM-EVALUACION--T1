@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">AppGrupo11</string>
+
+    <string name="p2_titulo">Mermas en lote de confección textil</string>
+    <string name="p2_prendas_hint">Cantidad de prendas defectuosas</string>
+    <string name="p2_calcular">Calcular</string>
+    <string name="p2_resultado_inicial">Aquí se mostrará el resultado.</string>
+
     <string name="btnvolverinicio">Volver al inicio</string>
     <string name="btncalcular">Calcular</string>
     <string name="tvdiasretraso">Dias de retraso:</string>
