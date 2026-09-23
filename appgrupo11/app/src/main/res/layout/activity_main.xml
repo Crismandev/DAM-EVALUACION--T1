@@ -10,64 +10,101 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="match_parent"
         android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:padding="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txttitulo"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary"
+            android:letterSpacing="0.05"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txttitulo2"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:alpha="0.7"
+            android:layout_marginBottom="40dp" />
 
         <Button
             android:id="@+id/btnPregunta1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
             android:text="@string/main_btn_pregunta1" />
 
         <Button
             android:id="@+id/btnPregunta2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
             android:text="@string/main_btn_pregunta2" />
 
         <Button
             android:id="@+id/btnPregunta3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
             android:text="@string/main_btn_pregunta3" />
 
         <Button
             android:id="@+id/btnPregunta4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
             android:text="@string/main_btn_pregunta4" />
 
         <Button
             android:id="@+id/btnPregunta5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pregunta 5"
-            app:layout_constraintTop_toBottomOf="@id/btnPregunta1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="16dp"/>
-
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
+            android:text="@string/main_btn_pregunta5" />
 
         <Button
             android:id="@+id/btnPregunta6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
             android:text="@string/main_btn_pregunta6" />
 
         <Button
             android:id="@+id/btnPregunta7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="1.5dp"
             android:text="@string/main_btn_pregunta7" />
 
     </LinearLayout>
